@@ -1,6 +1,4 @@
 package com.example.lab_week_04
-
-package com.example.lab_week_04
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
