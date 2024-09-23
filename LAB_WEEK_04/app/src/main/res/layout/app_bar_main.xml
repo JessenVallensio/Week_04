@@ -20,4 +20,7 @@
     </com.google.android.material.appbar.AppBarLayout>
     <include
         android:id="@+id/include"
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+</androidx.constraintlayout.widget.ConstraintLayout>
