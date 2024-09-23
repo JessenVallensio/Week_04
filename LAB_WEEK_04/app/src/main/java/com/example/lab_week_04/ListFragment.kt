@@ -35,6 +35,7 @@ class ListFragment : Fragment() {
             view.findViewById(R.id.affogato),
             view.findViewById(R.id.americano),
             view.findViewById(R.id.latte)
+        )
     }
 }
 
