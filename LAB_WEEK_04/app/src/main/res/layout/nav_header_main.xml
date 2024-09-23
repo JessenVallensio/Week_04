@@ -11,3 +11,4 @@
     android:paddingTop="16dp"
     android:paddingEnd="16dp"
     android:paddingBottom="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
