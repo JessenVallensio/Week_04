@@ -8,5 +8,8 @@
     <string name="affogato_desc">Espresso poured on a vanilla ice cream. Served in a
 cappuccino cup.</string>
     <string name="americano_title">AMERICANO</string>
-
+    <string name="americano_desc">Espresso with added hot water (100-150 ml). Often
+served in a cappuccino cup. (The espresso is added into the hot water rather than
+all the water being flowed through the coffee that would lead to over
+extraction.)</string>
 </resources>
