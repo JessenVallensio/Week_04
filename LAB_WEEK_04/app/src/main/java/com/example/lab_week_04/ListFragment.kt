@@ -40,7 +40,12 @@ class ListFragment : Fragment() {
         coffeeList.forEach{ coffee ->
             val fragmentBundle = Bundle()
             fragmentBundle.putInt(COFFEE_ID, coffee.id)
-    }
+            coffee.setOnClickListener(
+                Navigation.createNavigateOnClickListener(
+                    R.id.action_listFragment_to_detailFragment,
+                    fragmentBundle)
+
+        }
 }
 
     companion object {
