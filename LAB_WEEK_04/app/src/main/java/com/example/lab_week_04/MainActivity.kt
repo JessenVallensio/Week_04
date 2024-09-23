@@ -24,3 +24,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.listFragment, R.id.favoritesFragment
             ), findViewById(R.id.drawer_layout)
         )
+        setupActionBarWithNavController(navController, appBarConfiguration)
+        findViewById<NavigationView>(R.id.nav_view)
+            ?.setupWithNavController(navController)
