@@ -39,6 +39,7 @@ class ListFragment : Fragment() {
 
         coffeeList.forEach{ coffee ->
             val fragmentBundle = Bundle()
+            fragmentBundle.putInt(COFFEE_ID, coffee.id)
     }
 }
 
