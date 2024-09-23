@@ -14,5 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="@string/affogato_title"/>
-
+    <View
+        android:layout_width="match_parent"
+        android:background="?android:attr/dividerVertical" />
 </LinearLayout>
