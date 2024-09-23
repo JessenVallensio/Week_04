@@ -28,8 +28,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="@string/latte_title"
-            app:drawableStartCompat ="@drawable/favorite"
+            app:drawableStartCompat ="@drawable/baseline_favorite_24"
             android:drawablePadding="10dp"/>
-
     </LinearLayout>
 </ScrollView>
