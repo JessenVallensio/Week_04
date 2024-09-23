@@ -59,7 +59,7 @@ class DetailFragment : Fragment() {
     }
 
         companion object {
-
+            private const val COFFEE_ID = "COFFEE_ID"
             }
     }
 }
