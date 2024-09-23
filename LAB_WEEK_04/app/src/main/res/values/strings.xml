@@ -18,4 +18,7 @@ espresso with steamed milk and only a little milk foam poured over it. Serve in 
 latte glass or a coffee cup. Flavoured syrup can be added.</string>
     <string name="coffee_list">Coffee List</string>
     <string name="coffee_favorites">My Favorite Coffee</string>
+    <string name="cafe_list">Cafe List</string>
+    <string name="bottom_menu_coffee">Coffee</string>
+    <string name="bottom_menu_cafe">Cafe</string>
 </resources>
