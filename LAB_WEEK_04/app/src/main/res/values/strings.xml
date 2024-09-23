@@ -3,4 +3,6 @@
     <string name="app_title">Coffee App</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="menu_coffee">Coffee List</string>
+    <string name="menu_favorites">Favorite Coffee</string>
+
 </resources>
