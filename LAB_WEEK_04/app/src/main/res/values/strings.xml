@@ -12,4 +12,6 @@ cappuccino cup.</string>
 served in a cappuccino cup. (The espresso is added into the hot water rather than
 all the water being flowed through the coffee that would lead to over
 extraction.)</string>
+    <string name="latte_title">CAFFE LATTE</string>
+
 </resources>
