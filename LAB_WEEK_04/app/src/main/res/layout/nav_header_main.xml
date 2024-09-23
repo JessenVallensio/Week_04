@@ -15,3 +15,5 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/nav_header_desc"
