@@ -61,8 +61,6 @@ class DetailFragment : Fragment() {
         companion object {
 
             DetailFragment().apply {
-                
-                    putString(ARG_PARAM2, param2)
                 }
             }
     }
