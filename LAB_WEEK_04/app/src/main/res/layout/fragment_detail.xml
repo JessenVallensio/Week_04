@@ -21,5 +21,6 @@
         android:background="?android:attr/dividerVertical" />
     <TextView
         android:id="@+id/coffee_desc"
+        android:layout_width="match_parent"
         />
 </LinearLayout>
