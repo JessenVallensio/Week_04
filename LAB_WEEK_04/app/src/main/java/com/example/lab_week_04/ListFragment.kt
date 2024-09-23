@@ -50,8 +50,7 @@ class ListFragment : Fragment() {
 }
 
     companion object {
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
+        const val COFFEE_ID = "COFFEE_ID"
         fun newInstance(param1: String, param2: String) =
             ListFragment().apply {
                 arguments = Bundle().apply {
