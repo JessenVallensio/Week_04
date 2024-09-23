@@ -12,3 +12,6 @@
     android:paddingEnd="16dp"
     android:paddingBottom="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
