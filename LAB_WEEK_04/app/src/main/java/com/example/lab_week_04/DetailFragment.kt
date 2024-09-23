@@ -49,6 +49,9 @@ class DetailFragment : Fragment() {
                 coffeeTitle?.text = getString(R.string.americano_title)
                 coffeeDesc?.text = getString(R.string.americano_desc)
             }
+            R.id.latte -> {
+                coffeeTitle?.text = getString(R.string.latte_title)
+                coffeeDesc?.text = getString(R.string.latte_desc)
         }
 
         companion object {
