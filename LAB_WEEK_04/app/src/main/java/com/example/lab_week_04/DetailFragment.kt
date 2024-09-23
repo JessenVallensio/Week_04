@@ -60,8 +60,6 @@ class DetailFragment : Fragment() {
 
         companion object {
 
-            DetailFragment().apply {
-                }
             }
     }
 }
