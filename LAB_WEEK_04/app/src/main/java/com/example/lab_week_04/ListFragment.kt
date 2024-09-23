@@ -36,6 +36,9 @@ class ListFragment : Fragment() {
             view.findViewById(R.id.americano),
             view.findViewById(R.id.latte)
         )
+
+        coffeeList.forEach{ coffee ->
+            val fragmentBundle = Bundle()
     }
 }
 
