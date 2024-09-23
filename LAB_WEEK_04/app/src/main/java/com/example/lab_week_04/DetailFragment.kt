@@ -59,10 +59,9 @@ class DetailFragment : Fragment() {
     }
 
         companion object {
-       
+
             DetailFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
+                
                     putString(ARG_PARAM2, param2)
                 }
             }
