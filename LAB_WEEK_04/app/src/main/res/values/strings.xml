@@ -7,5 +7,6 @@
     <string name="affogato_title">AFFOGATO</string>
     <string name="affogato_desc">Espresso poured on a vanilla ice cream. Served in a
 cappuccino cup.</string>
+    <string name="americano_title">AMERICANO</string>
 
 </resources>
