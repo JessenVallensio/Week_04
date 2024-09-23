@@ -39,21 +39,24 @@ class DetailFragment : Fragment() {
         setCoffeeData(coffeeId)
     }
 
-    fun setCoffeeData(id: Int){
-        when(id){
+    fun setCoffeeData(id: Int) {
+        when (id) {
             R.id.affogato -> {
                 coffeeTitle?.text = getString(R.string.affogato_title)
                 coffeeDesc?.text = getString(R.string.affogato_desc)
             }
+
             R.id.americano -> {
                 coffeeTitle?.text = getString(R.string.americano_title)
                 coffeeDesc?.text = getString(R.string.americano_desc)
             }
+
             R.id.latte -> {
                 coffeeTitle?.text = getString(R.string.latte_title)
                 coffeeDesc?.text = getString(R.string.latte_desc)
             }
         }
+    }
 
         companion object {
         @JvmStatic
