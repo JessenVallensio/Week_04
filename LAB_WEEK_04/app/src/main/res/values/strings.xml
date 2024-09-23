@@ -4,5 +4,6 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="menu_coffee">Coffee List</string>
     <string name="menu_favorites">Favorite Coffee</string>
+    <string name="affogato_title">AFFOGATO</string>
 
 </resources>
