@@ -39,6 +39,7 @@ class DetailFragment : Fragment() {
         setCoffeeData(coffeeId)
     }
 
+    fun setCoffeeData(id: Int){}
 
         companion object {
         @JvmStatic
