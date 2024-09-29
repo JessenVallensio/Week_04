@@ -9,14 +9,14 @@ private const val TAB_CONTENT = "TAB_CONTENT"
 
 class CafeDetailFragment : Fragment() {
     private var content: String? = null
-    
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
+            content = it.getString(TAB_CONTENT)
         }
     }
+
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
