@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
+
 private const val TAB_CONTENT = "TAB_CONTENT"
 
 class CafeDetailFragment : Fragment() {
@@ -30,7 +32,6 @@ class CafeDetailFragment : Fragment() {
         view.findViewById<TextView>(R.id.content_description)
             ?.text = content
     }
-
 
     companion object {
         fun newInstance(content: String) =
