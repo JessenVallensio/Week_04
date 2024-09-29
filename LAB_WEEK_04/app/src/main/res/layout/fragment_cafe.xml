@@ -38,4 +38,4 @@
             android:padding="10dp"
             android:text="@string/kopikenangan_title"/>
     </LinearLayout>
-</ScrollView>s
+</ScrollView>
