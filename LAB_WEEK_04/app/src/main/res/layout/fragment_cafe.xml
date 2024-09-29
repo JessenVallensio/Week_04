@@ -14,3 +14,5 @@
             android:layout_height="wrap_content"
             android:textSize="30sp"
             android:text="@string/cafe_list"/>
+        <View
+            android:layout_width="match_parent"
