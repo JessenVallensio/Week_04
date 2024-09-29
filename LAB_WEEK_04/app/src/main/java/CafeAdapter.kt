@@ -3,6 +3,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.lab_week_04.CafeDetailFragment
+import com.example.lab_week_04.R
 
 val TABS_FIXED = listOf(
     R.string.starbucks_title,
