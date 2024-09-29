@@ -8,3 +8,4 @@
         android:id="@+id/cafeFragment"
         android:icon="@drawable/cafe"
         android:title="Cafe"/>
+</menu>
