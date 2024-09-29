@@ -32,5 +32,13 @@ class CafeDetailFragment : Fragment() {
     }
 
 
-        
+    companion object {
+        fun newInstance(content: String) =
+            CafeDetailFragment().apply {
+                arguments = Bundle().apply {
+                    putString(TAB_CONTENT, content)
+                }
+            }
+    }
+
 }
