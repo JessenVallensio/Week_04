@@ -1,3 +1,5 @@
+import androidx.lifecycle.Lifecycle
+
 val TABS_FIXED = listOf(
     R.string.starbucks_title,
     R.string.janjijiwa_title,
