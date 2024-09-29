@@ -25,7 +25,11 @@ class CafeDetailFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_cafe_detail, container, false)
     }
 
-    companion object {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+
+        companion object {
         /**
          * Use this factory method to create a new instance of
          * this fragment using the provided parameters.
