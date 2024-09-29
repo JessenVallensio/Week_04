@@ -22,6 +22,7 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class CafeFragment : Fragment() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -30,7 +31,7 @@ class CafeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-// Inflate the layout for this fragment
+        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_cafe, container, false)
     }
 
