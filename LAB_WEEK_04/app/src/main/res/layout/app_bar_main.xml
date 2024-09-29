@@ -18,4 +18,5 @@
             android:background="@color/light_brown"
             app:popupTheme="@style/Theme.NavigationDrawer.PopupOverlay" />
     </com.google.android.material.appbar.AppBarLayout>
-    <include
+    <include android:id="@+id/include"
+        android:layout_width="match_parent"
