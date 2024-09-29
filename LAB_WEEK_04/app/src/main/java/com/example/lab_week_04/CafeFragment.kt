@@ -29,6 +29,9 @@ class CafeFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_cafe, container, false)
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val viewPager = view.findViewById<ViewPager2>(R.id.view_pager)
     companion object {
         /**
          * Use this factory method to create a new instance of
