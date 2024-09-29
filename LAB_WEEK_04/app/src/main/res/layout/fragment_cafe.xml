@@ -22,3 +22,6 @@
         <TextView
             android:id="@+id/affogato"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/starbucks_title"/>
