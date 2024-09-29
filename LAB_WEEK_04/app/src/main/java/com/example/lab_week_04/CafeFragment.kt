@@ -32,6 +32,9 @@ class CafeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val viewPager = view.findViewById<ViewPager2>(R.id.view_pager)
+        val tabLayout = view.findViewById<TabLayout>(R.id.tab_layout)
+        val adapter = CafeAdapter(childFragmentManager, lifecycle)
+        viewPager.adapter = adapter
     companion object {
         /**
          * Use this factory method to create a new instance of
