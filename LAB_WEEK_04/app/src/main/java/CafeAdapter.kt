@@ -11,3 +11,6 @@ class CafeAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle) :
     }
     override fun createFragment(position: Int): Fragment
     {
+        return CafeDetailFragment()
+    }
+}
