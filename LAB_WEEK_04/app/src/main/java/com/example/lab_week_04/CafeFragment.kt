@@ -35,6 +35,11 @@ class CafeFragment : Fragment() {
         val tabLayout = view.findViewById<TabLayout>(R.id.tab_layout)
         val adapter = CafeAdapter(childFragmentManager, lifecycle)
         viewPager.adapter = adapter
+        TabLayoutMediator(tabLayout, viewPager) { tab, position ->
+            tab.text = resources.getString(TABS_FIXED[position])
+        }.attach()
+    }
+
     companion object {
         /**
          * Use this factory method to create a new instance of
