@@ -19,3 +19,6 @@
             android:layout_height="1dp"
             android:layout_marginVertical="20dp"
             android:background="?android:attr/dividerVertical" />
+        <TextView
+            android:id="@+id/affogato"
+            android:layout_width="match_parent"
