@@ -1,3 +1,4 @@
+import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 
 val TABS_FIXED = listOf(
