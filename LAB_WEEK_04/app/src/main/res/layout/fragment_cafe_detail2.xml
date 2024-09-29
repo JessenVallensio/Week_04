@@ -5,5 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".CafeDetailFragment"
     android:padding="30dp">
-    
+
+    <TextView
+        android:id="@+id/content_description"
 </FrameLayout>
